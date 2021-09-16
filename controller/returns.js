@@ -1,7 +1,7 @@
 const { request } = require("express");
 const moment = require('moment');
 const {Rental} =    require('../models/rental');
-const moment = require("moment");
+// const moment = require("moment");
 
 exports.createreturns = (req,res)=>{
     
