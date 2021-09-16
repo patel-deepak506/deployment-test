@@ -9,10 +9,6 @@ const returnsRoute = require('./routes/returns');
 const usersRoute = require('./routes/users');
 require('dotenv').config();
 const app = express();
-// require('./startup/routes')(app);
-// require('./startup/db')();
-// require('./startup/config')();
-// require('./startup/prod');
 
 
 mongoose.connect(process.env.DATABASE, {
